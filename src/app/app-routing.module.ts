@@ -23,6 +23,7 @@ import { PointSystemComponent } from './point-system/point-system.component';
 import { PointSystemDetailsComponent } from './point-system-details/point-system-details.component';
 import { PointSystemTaskComponent } from './point-system-task/point-system-task.component';
 import { PointSystemRewardsComponent } from './point-system-rewards/point-system-rewards.component';
+import { OverallDashComponent } from './dashboard-overall/dash-overall.component';
 
 import { AuthenticationGuard } from './authentication.guard';
 
@@ -51,6 +52,7 @@ const routes: Routes = [
   { path: 'point-system-task', component: PointSystemTaskComponent},
   { path: 'point-system-rewards', component: PointSystemRewardsComponent},
   { path: 'point-system-details/:id', component: PointSystemDetailsComponent},
+  { path: 'dash-overall', component: OverallDashComponent},
 ];
 
 @NgModule({

@@ -17,6 +17,7 @@
             <li><a routerLink="/PCRAReport">PCRA Report</a></li>
             <li><a routerLink="/child-insight">Child Insight</a></li>
             <li><a routerLink="/hobbies">Hobbies</a></li>
+            <li><a routerLink="/dash-overall">Dashboard</a></li>
             <li *ngIf="userType == 'Teacher';"><a><mat-icon [matBadge]="badgeContent.length" accent="warn" [matBadgeHidden]="hideMatBadge" (click)="goToNotifs()">notifications</mat-icon></a></li>
             <li><a routerLink="" (click)="LogOut()"> LogOut </a></li>
           </ul>

@@ -38,6 +38,7 @@ import { ScoreDetailsComponent } from './pcrassesment/score-details/score-detail
 import { ConfirmationDialogComponent } from './confirmation-dialog/confirmation-dialog.component';
 import { ConfirmationDialogService } from './confirmation-dialog/confirmation-dialog.service';
 import { TagCloudComponent } from './tag-cloud/tag-cloud.component';
+import { OverallDashComponent } from './dashboard-overall/dash-overall.component';
 
 import{ jqxTagCloudComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxtagcloud';  
 import { jqxColorPickerComponent } from 'jqwidgets-scripts/jqwidgets-ts/angular_jqxcolorpicker';
@@ -147,6 +148,7 @@ import { List10Component } from './contatos10/list10/list10.component';
     List6Component,
     Edit10Component,
     List10Component,
+    OverallDashComponent,
   ],
 
   entryComponents: [ConfirmationDialogComponent, DialogboxComponent],
